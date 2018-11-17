@@ -12,3 +12,9 @@ function nowServing(katzDeliLine){
     return ("Currently serving " + katzDeliLine.shift(0) + ".")
   }
 }
+
+function currentLine(katzDeliLine){
+  if (katzDeliLine.length===0){
+    
+  }
+}
