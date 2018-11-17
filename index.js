@@ -19,7 +19,7 @@ function currentLine(katzDeliLine){
   }else{
     var currentLine = []
     for (var i = 0; katzDeliLine.length>0; i++){
-      currentLine.push([i] + ". " "name")
+      currentLine.push(i+1 + ". " "")
       return ("The line is currently: " + katzDeliLine[i])
     }
   }
